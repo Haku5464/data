@@ -43,7 +43,7 @@ def financial_indicators_section():
 
     @st.cache_resource  
     def load_data():
-        return pd.read_csv("F:/financial_data_AAPL_financialindicator.csv",encoding='utf-8')
+        return pd.read_csv("./financial_data_AAPL_financialindicator.csv",encoding='utf-8')
 
     data = load_data()
 
@@ -151,7 +151,7 @@ def income_statement_section():
 
     @st.cache_resource  
     def load_data():
-        return pd.read_csv("F:/financial_data_AAPL_income.csv",encoding='utf-8')
+        return pd.read_csv("./financial_data_AAPL_income.csv",encoding='utf-8')
 
     data = load_data()
 
@@ -199,7 +199,7 @@ def balance_sheet_section():
 
     @st.cache_resource  
     def load_data():
-        return pd.read_csv("F:/financial_data_AAPL_balance.csv",encoding='utf-8')
+        return pd.read_csv("./financial_data_AAPL_balance.csv",encoding='utf-8')
 
     data = load_data()
 
@@ -246,7 +246,7 @@ def cash_flow_statement_section():
 
     @st.cache_resource  
     def load_data():
-        return pd.read_csv("F:/financial_data_AAPL_cash.csv",encoding='utf-8')
+        return pd.read_csv("./financial_data_AAPL_cash.csv",encoding='utf-8')
 
     data = load_data()
 
